@@ -1,5 +1,6 @@
 
 import { extendTheme } from "@chakra-ui/react"
+import { createBreakpoints } from "@chakra-ui/theme-tools"
 
 const theme = extendTheme({ 
     styles: {
@@ -16,5 +17,11 @@ const theme = extendTheme({
         },
       }),
     },
+    breakpoints: createBreakpoints({
+      sm:"450px",
+      md:"1000px",
+      lg:"500px",
+      xl:"1200px",
+    }),
   });
 export default theme;
