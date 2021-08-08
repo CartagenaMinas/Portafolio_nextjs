@@ -44,7 +44,7 @@ export default function Home() {
       />
       <Project
         icon={SiLibreoffice}
-        link="https://sensioai.com/blog"
+        link="https://cartagenaminas.github.io/CristianCartagena.github.io/"
         text="Curriculum Vitae"
         gridArea="p3"
       />
