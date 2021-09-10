@@ -8,7 +8,7 @@ import {
   FiLinkedin,
   FiMail,
 } from "react-icons/fi";
-import { GiHistogram, GiSpotedFlower} from "react-icons/gi";
+import { GiHistogram, GiSpotedFlower, GiMineTruck, GiMineWagon, GiMineExplosion} from "react-icons/gi";
 import { SiGooglemaps,SiLibreoffice,SiPython } from "react-icons/si";
 
 export default function Home() {
@@ -36,9 +36,9 @@ export default function Home() {
         gridArea="p1"
       />
       <Project
-        icon={GiSpotedFlower}
-        text="Iris Dataset"
-        link="https://irisminas.herokuapp.com/"
+        icon={GiMineTruck}
+        text="REQUERIMIENTO DE AIRE"
+        link="https://requerimiento-de-aire-minas.herokuapp.com/"
         gridArea="p2"
         
       />
