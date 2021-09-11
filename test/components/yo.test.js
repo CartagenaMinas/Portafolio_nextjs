@@ -7,7 +7,7 @@ const photoUrl = "yo.jpg";
 
 test("loads and displays my photo", async () => {
   const { getByAltText } = render(<Yo />);
-  const img = getByAltText("Juan Sensio");
+  const img = getByAltText("Cristian Cartagena");
   //expect(img.src).toEqual(url);
   const files = fs.readdirSync(path.join(process.cwd(), "public"));
   expect(files.includes(photoUrl)).toBeTruthy();

@@ -8,8 +8,9 @@ import {
   FiLinkedin,
   FiMail,
 } from "react-icons/fi";
-import { GiHistogram, GiSpotedFlower, GiMineTruck, GiMineWagon, GiMineExplosion} from "react-icons/gi";
-import { SiGooglemaps,SiLibreoffice,SiPython } from "react-icons/si";
+import { GiHistogram, GiSpotedFlower, GiMineTruck, GiMineWagon, GiMineExplosion,} from "react-icons/gi";
+import { SiGooglemaps,SiLibreoffice,SiPython,SiApacheairflow,SiUnitedairlines } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
 
 export default function Home() {
   return (
@@ -30,65 +31,65 @@ export default function Home() {
       <Yo />
       <Info/>
       <Project
-        icon={ImEarth}
-        text="IDL Mining"
-        link="http://www.idlmining.com/"
+        icon={GiMineTruck}
+        text="CARTERA DE PROYECTOS MINEROS POWER BI"
+        link="https://cartera-proyectos-mina.herokuapp.com/"
         gridArea="p1"
       />
       <Project
-        icon={GiMineTruck}
+        icon={SiApacheairflow}
         text="REQUERIMIENTO DE AIRE"
         link="https://requerimiento-de-aire-minas.herokuapp.com/"
         gridArea="p2"
         
       />
       <Project
-        icon={SiLibreoffice}
-        link="https://cartagenaminas.github.io/CristianCartagena.github.io/"
-        text="Curriculum Vitae"
+        icon={GiHistogram}
+        link="https://analisisdataminas.herokuapp.com/"
+        text="EXPLORACIÓN DE DATA CSV"
         gridArea="p3"
       />
       <Project
-        icon={SiGooglemaps}
+        icon={SiUnitedairlines}
         link="https://cartagenaminas.github.io/Mapa-1/"
-        text="Deep Learning Map"
+        text="CLASIFICACIÓN DE IMÁGENES DEEP LEARNING"
         gridArea="p4"
       />
       <Project
-        icon={FiGithub}
-        link="https://github.com/CartagenaMinas"
-        text="Github"
+        icon={CgWebsite}
+        link="https://cartagenaminas.github.io/CristianCartagena.github.io/"
+        text="CURRICULUM VITAE"
         gridArea="p5"
       />
       <Project
       
-        icon={FiLinkedin}
-        link="https://www.linkedin.com/in/cristiancartagenamatos/"
-        text="Linkedin"
+        icon={GiSpotedFlower}
+        link="https://irisminas.herokuapp.com/"
+        text="MODELAMIENTO DE IRIS DATASET"
         gridArea="p6"
       />
       <Project
-        icon={GiHistogram}
-        link="https://analisisdataminas.herokuapp.com/"
-        text="Modelo de Bloques"
+        icon={FiGithub}
+        link="https://github.com/CartagenaMinas"
+        text="GITHUB"
         gridArea="p7"
       />
       <Project
         icon={FiMail}
         link="mailto:cristian.cartagena@unmsm.edu.pe"
-        text="Email"
+        text="CORREO ELECTRONICO"
         gridArea="p8"
       />
       <Project
-        icon={SiPython}
-        link="https://www.linkedin.com/in/cristiancartagenamatos/"
-        text="Proyecto de Python"
+        icon={ImBlog}
+        link="http://www.idlmining.com/"
+        text="IDL MINING STARTUP"
         gridArea="p9"
       />
       <Project
-        icon={ImBlog}
+        icon={FiLinkedin}
         link="https://www.linkedin.com/in/cristiancartagenamatos/"
-        text="blog"
+        text="LINKEDIN"
         gridArea="p10"
       />
     </Grid>
