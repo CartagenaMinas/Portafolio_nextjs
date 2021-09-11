@@ -7,7 +7,7 @@ export default function Yo() {
       boxSize="200px"
       objectFit="cover"
       src="/yo_foto.jpg"
-      alt="Juan Sensio"
+      alt="Cristian Cartagena Matos"
       gridArea="i"
     />
   );

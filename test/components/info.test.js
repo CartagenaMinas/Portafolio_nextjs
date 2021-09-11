@@ -3,16 +3,16 @@ import Info from "@/components/info";
 
 test("loads and displays info", async () => {
   const { getByText, getByTitle } = render(<Info />);
-  getByText("Juan Sensio");
+  getByText("Cristian Cartagena");
   getByText(
     "Desarrollador de Software. Aquí encontrarás algunos de mis proyectos."
   );
   let link = getByTitle("twitter").closest("a");
-  expect(link.href).toEqual("https://twitter.com/juansensio");
+  expect(link.href).toEqual("");
   expect(link.target).toEqual("_blank");
   link = getByTitle("github").closest("a");
-  expect(link.href).toEqual("https://github.com/juansensio");
+  expect(link.href).toEqual("");
   expect(link.target).toEqual("_blank");
   link = getByTitle("mail").closest("a");
-  expect(link.href).toEqual("mailto:juansensio03@gmail.com");
+  expect(link.href).toEqual("");
 });
