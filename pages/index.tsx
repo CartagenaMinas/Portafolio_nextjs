@@ -9,8 +9,9 @@ import {
   FiMail,
 } from "react-icons/fi";
 import { GiHistogram, GiSpotedFlower, GiMineTruck, GiMineWagon, GiMineExplosion,} from "react-icons/gi";
-import { SiGooglemaps,SiLibreoffice,SiPython,SiApacheairflow,SiUnitedairlines } from "react-icons/si";
+import { SiGooglemaps,SiLibreoffice,SiPython,SiApacheairflow,SiUnitedairlines,SiMicrosoftexcel } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
+import { RiSurgicalMaskLine } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -31,15 +32,15 @@ export default function Home() {
       <Yo />
       <Info/>
       <Project
-        icon={GiMineTruck}
-        text="CARTERA DE PROYECTOS MINEROS POWER BI"
-        link="https://cartera-proyectos-mina.herokuapp.com/"
+        icon={GiMineExplosion}
+        text="MODELOS Y FÓRMULAS PARA VOLADURA SUPERFICIAL"
+        link="https://minas-voladura.herokuapp.com/"
         gridArea="p1"
       />
       <Project
-        icon={SiApacheairflow}
-        text="REQUERIMIENTO DE AIRE"
-        link="https://requerimiento-de-aire-minas.herokuapp.com/"
+        icon={GiMineTruck}
+        text="CARTERA DE PROYECTOS MINEROS POWER BI"
+        link="https://cartera-proyectos-mina.herokuapp.com/"
         gridArea="p2"
         
       />
@@ -56,28 +57,28 @@ export default function Home() {
         gridArea="p4"
       />
       <Project
-        icon={CgWebsite}
-        link="https://cartagenaminas.github.io/CristianCartagena.github.io/"
-        text="CURRICULUM VITAE"
+        icon={GiMineWagon}
+        link="https://clasificacion-rocas.herokuapp.com/"
+        text="MODELOS DE MACHING LEARNING PARA CLASIFICACIÓN DE ROCAS"
         gridArea="p5"
       />
       <Project
       
-        icon={GiSpotedFlower}
-        link="https://irisminas.herokuapp.com/"
-        text="MODELAMIENTO DE IRIS DATASET"
+        icon={SiApacheairflow}
+        link="https://requerimiento-de-aire-minas.herokuapp.com/"
+        text="REQUERIMIENTO DE AIRE"
         gridArea="p6"
       />
       <Project
-        icon={FiGithub}
-        link="https://github.com/CartagenaMinas"
-        text="GITHUB"
+        icon={RiSurgicalMaskLine}
+        link="https://minas-mask.herokuapp.com/"
+        text="DEEP LEARNING PARA CLASIFICACIÓN BINARIA TAPA BOCAS"
         gridArea="p7"
       />
       <Project
-        icon={FiMail}
-        link="mailto:cristian.cartagena@unmsm.edu.pe"
-        text="CORREO ELECTRONICO"
+        icon={SiMicrosoftexcel}
+        link="http://www.idlmining.com/python-excel-post1/"
+        text="AUTOMATIZACIÓN DE EXCEL CON PYTHON XLWINGS"
         gridArea="p8"
       />
       <Project
@@ -87,9 +88,9 @@ export default function Home() {
         gridArea="p9"
       />
       <Project
-        icon={FiLinkedin}
-        link="https://www.linkedin.com/in/cristiancartagenamatos/"
-        text="LINKEDIN"
+        icon={CgWebsite}
+        link="https://cartagenaminas.github.io/CristianCartagena.github.io/"
+        text="CURRICULUM VITAE"
         gridArea="p10"
       />
     </Grid>
